@@ -34,6 +34,9 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jjw-zO-edS">
                                         <state key="normal" title="Set Default Button Text"/>
+                                        <connections>
+                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="esy-ct-I9C"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -49,6 +52,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Bj7-qD-blZ" secondAttribute="trailing" id="zOf-gY-axM"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="postTextField" destination="UGJ-2p-858" id="HcI-FJ-dHV"/>
+                        <outlet property="postTextLabel" destination="bUc-bX-q8p" id="cwk-Ov-uv2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
