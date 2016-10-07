@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C39D58A1DA7ED1900904E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39D5891DA7ED1900904E5A /* AppDelegate.swift */; };
+		9C39D58C1DA7ED1900904E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39D58B1DA7ED1900904E5A /* ViewController.swift */; };
+		9C39D58F1DA7ED1900904E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C39D58D1DA7ED1900904E5A /* Main.storyboard */; };
+		9C39D5921DA7ED1900904E5A /* Roffe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C39D5901DA7ED1900904E5A /* Roffe.xcdatamodeld */; };
+		9C39D5941DA7ED1900904E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C39D5931DA7ED1900904E5A /* Assets.xcassets */; };
+		9C39D5971DA7ED1900904E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C39D5951DA7ED1900904E5A /* LaunchScreen.storyboard */; };
+		9C39D5A21DA7ED1900904E5A /* RoffeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39D5A11DA7ED1900904E5A /* RoffeTests.swift */; };
+		9C39D5AD1DA7ED1900904E5A /* RoffeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C39D5AC1DA7ED1900904E5A /* RoffeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C39D59E1DA7ED1900904E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C39D57E1DA7ED1900904E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C39D5851DA7ED1900904E5A;
+			remoteInfo = Roffe;
+		};
+		9C39D5A91DA7ED1900904E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C39D57E1DA7ED1900904E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C39D5851DA7ED1900904E5A;
+			remoteInfo = Roffe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C39D5861DA7ED1900904E5A /* Roffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roffe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C39D5891DA7ED1900904E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C39D58B1DA7ED1900904E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C39D58E1DA7ED1900904E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C39D5911DA7ED1900904E5A /* Roffe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roffe.xcdatamodel; sourceTree = "<group>"; };
+		9C39D5931DA7ED1900904E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C39D5961DA7ED1900904E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C39D5981DA7ED1900904E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C39D59D1DA7ED1900904E5A /* RoffeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoffeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C39D5A11DA7ED1900904E5A /* RoffeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoffeTests.swift; sourceTree = "<group>"; };
+		9C39D5A31DA7ED1900904E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C39D5A81DA7ED1900904E5A /* RoffeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoffeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C39D5AC1DA7ED1900904E5A /* RoffeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoffeUITests.swift; sourceTree = "<group>"; };
+		9C39D5AE1DA7ED1900904E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C39D5831DA7ED1900904E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C39D59A1DA7ED1900904E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C39D5A51DA7ED1900904E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C39D57D1DA7ED1900904E5A = {
+			isa = PBXGroup;
+			children = (
+				9C39D5881DA7ED1900904E5A /* Roffe */,
+				9C39D5A01DA7ED1900904E5A /* RoffeTests */,
+				9C39D5AB1DA7ED1900904E5A /* RoffeUITests */,
+				9C39D5871DA7ED1900904E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C39D5871DA7ED1900904E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C39D5861DA7ED1900904E5A /* Roffe.app */,
+				9C39D59D1DA7ED1900904E5A /* RoffeTests.xctest */,
+				9C39D5A81DA7ED1900904E5A /* RoffeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C39D5881DA7ED1900904E5A /* Roffe */ = {
+			isa = PBXGroup;
+			children = (
+				9C39D5891DA7ED1900904E5A /* AppDelegate.swift */,
+				9C39D58B1DA7ED1900904E5A /* ViewController.swift */,
+				9C39D58D1DA7ED1900904E5A /* Main.storyboard */,
+				9C39D5931DA7ED1900904E5A /* Assets.xcassets */,
+				9C39D5951DA7ED1900904E5A /* LaunchScreen.storyboard */,
+				9C39D5981DA7ED1900904E5A /* Info.plist */,
+				9C39D5901DA7ED1900904E5A /* Roffe.xcdatamodeld */,
+			);
+			path = Roffe;
+			sourceTree = "<group>";
+		};
+		9C39D5A01DA7ED1900904E5A /* RoffeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C39D5A11DA7ED1900904E5A /* RoffeTests.swift */,
+				9C39D5A31DA7ED1900904E5A /* Info.plist */,
+			);
+			path = RoffeTests;
+			sourceTree = "<group>";
+		};
+		9C39D5AB1DA7ED1900904E5A /* RoffeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C39D5AC1DA7ED1900904E5A /* RoffeUITests.swift */,
+				9C39D5AE1DA7ED1900904E5A /* Info.plist */,
+			);
+			path = RoffeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C39D5851DA7ED1900904E5A /* Roffe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C39D5B11DA7ED1900904E5A /* Build configuration list for PBXNativeTarget "Roffe" */;
+			buildPhases = (
+				9C39D5821DA7ED1900904E5A /* Sources */,
+				9C39D5831DA7ED1900904E5A /* Frameworks */,
+				9C39D5841DA7ED1900904E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roffe;
+			productName = Roffe;
+			productReference = 9C39D5861DA7ED1900904E5A /* Roffe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C39D59C1DA7ED1900904E5A /* RoffeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C39D5B41DA7ED1900904E5A /* Build configuration list for PBXNativeTarget "RoffeTests" */;
+			buildPhases = (
+				9C39D5991DA7ED1900904E5A /* Sources */,
+				9C39D59A1DA7ED1900904E5A /* Frameworks */,
+				9C39D59B1DA7ED1900904E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C39D59F1DA7ED1900904E5A /* PBXTargetDependency */,
+			);
+			name = RoffeTests;
+			productName = RoffeTests;
+			productReference = 9C39D59D1DA7ED1900904E5A /* RoffeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C39D5A71DA7ED1900904E5A /* RoffeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C39D5B71DA7ED1900904E5A /* Build configuration list for PBXNativeTarget "RoffeUITests" */;
+			buildPhases = (
+				9C39D5A41DA7ED1900904E5A /* Sources */,
+				9C39D5A51DA7ED1900904E5A /* Frameworks */,
+				9C39D5A61DA7ED1900904E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C39D5AA1DA7ED1900904E5A /* PBXTargetDependency */,
+			);
+			name = RoffeUITests;
+			productName = RoffeUITests;
+			productReference = 9C39D5A81DA7ED1900904E5A /* RoffeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C39D57E1DA7ED1900904E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = roffe;
+				TargetAttributes = {
+					9C39D5851DA7ED1900904E5A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					9C39D59C1DA7ED1900904E5A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C39D5851DA7ED1900904E5A;
+					};
+					9C39D5A71DA7ED1900904E5A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C39D5851DA7ED1900904E5A;
+					};
+				};
+			};
+			buildConfigurationList = 9C39D5811DA7ED1900904E5A /* Build configuration list for PBXProject "Roffe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C39D57D1DA7ED1900904E5A;
+			productRefGroup = 9C39D5871DA7ED1900904E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C39D5851DA7ED1900904E5A /* Roffe */,
+				9C39D59C1DA7ED1900904E5A /* RoffeTests */,
+				9C39D5A71DA7ED1900904E5A /* RoffeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C39D5841DA7ED1900904E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C39D5971DA7ED1900904E5A /* LaunchScreen.storyboard in Resources */,
+				9C39D5941DA7ED1900904E5A /* Assets.xcassets in Resources */,
+				9C39D58F1DA7ED1900904E5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C39D59B1DA7ED1900904E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C39D5A61DA7ED1900904E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C39D5821DA7ED1900904E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C39D58C1DA7ED1900904E5A /* ViewController.swift in Sources */,
+				9C39D5921DA7ED1900904E5A /* Roffe.xcdatamodeld in Sources */,
+				9C39D58A1DA7ED1900904E5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C39D5991DA7ED1900904E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C39D5A21DA7ED1900904E5A /* RoffeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C39D5A41DA7ED1900904E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C39D5AD1DA7ED1900904E5A /* RoffeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C39D59F1DA7ED1900904E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C39D5851DA7ED1900904E5A /* Roffe */;
+			targetProxy = 9C39D59E1DA7ED1900904E5A /* PBXContainerItemProxy */;
+		};
+		9C39D5AA1DA7ED1900904E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C39D5851DA7ED1900904E5A /* Roffe */;
+			targetProxy = 9C39D5A91DA7ED1900904E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C39D58D1DA7ED1900904E5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C39D58E1DA7ED1900904E5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C39D5951DA7ED1900904E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C39D5961DA7ED1900904E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C39D5AF1DA7ED1900904E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C39D5B01DA7ED1900904E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C39D5B21DA7ED1900904E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roffe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roffe.Roffe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C39D5B31DA7ED1900904E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roffe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roffe.Roffe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9C39D5B51DA7ED1900904E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoffeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roffe.RoffeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roffe.app/Roffe";
+			};
+			name = Debug;
+		};
+		9C39D5B61DA7ED1900904E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoffeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roffe.RoffeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roffe.app/Roffe";
+			};
+			name = Release;
+		};
+		9C39D5B81DA7ED1900904E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RoffeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roffe.RoffeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Roffe;
+			};
+			name = Debug;
+		};
+		9C39D5B91DA7ED1900904E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RoffeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = roffe.RoffeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Roffe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C39D5811DA7ED1900904E5A /* Build configuration list for PBXProject "Roffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C39D5AF1DA7ED1900904E5A /* Debug */,
+				9C39D5B01DA7ED1900904E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C39D5B11DA7ED1900904E5A /* Build configuration list for PBXNativeTarget "Roffe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C39D5B21DA7ED1900904E5A /* Debug */,
+				9C39D5B31DA7ED1900904E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C39D5B41DA7ED1900904E5A /* Build configuration list for PBXNativeTarget "RoffeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C39D5B51DA7ED1900904E5A /* Debug */,
+				9C39D5B61DA7ED1900904E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C39D5B71DA7ED1900904E5A /* Build configuration list for PBXNativeTarget "RoffeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C39D5B81DA7ED1900904E5A /* Debug */,
+				9C39D5B91DA7ED1900904E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9C39D5901DA7ED1900904E5A /* Roffe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C39D5911DA7ED1900904E5A /* Roffe.xcdatamodel */,
+			);
+			currentVersion = 9C39D5911DA7ED1900904E5A /* Roffe.xcdatamodel */;
+			path = Roffe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9C39D57E1DA7ED1900904E5A /* Project object */;
+}
